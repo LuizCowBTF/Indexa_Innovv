@@ -1,27 +1,48 @@
-# IndexaInnovv
+# Indexa Innovv
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-black?style=for-the-badge&logo=JSON%20web%20tokens) ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![ANGULAR](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) ![RxJs](https://img.shields.io/badge/RxJs-404D59?style=for-the-badge)
 
-## Development server
+## Aplicativo para indexação de dados pessoais baseado em Angular na versão 17.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### O Indexa Innovv é um aplicativo que gerencia e indexa dados pessoais. Além disso, aqui são explorados os recursos para acessibilidade inclusiva para deficientes.
 
-## Code scaffolding
+### É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Baseado em curso de formação para atualização profissional chamado “Angular: construa uma aplicação web com componentes, linguagem de templates e CLI”, disponibilizado pela Alura e ministrado pelo instrutor Vinicios Neves. Nesta oportunidade pude atualizar meus conhecimentos em:
 
-## Build
+* Criar uma aplicação Angular e escrever componentes reutilizaveis
+* Entender como utilizar a linguagem de template do Angular para controlar o fluxo dos dados com @for
+* Explorar o uso do Angular CLI para criar aplicações e componentes
+* Ganhar prática em estilizar componentes Angular com CSS
+* Aprender a ler arquivos JSON em Angular e ajustar configurações no arquivo tsconfig.json para atender às necessidades do projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠️ Instalação
 
-## Running unit tests
+```bash
+$ npm install
+$ npm run start
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🛠️ Como utlizar
 
-## Running end-to-end tests
+* Execute `ng serve` para um servidor de desenvolvimento. Navegue até `http://localhost:4200/`.
+* O aplicativo será recarregado automaticamente se você alterar algum dos arquivos de origem.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## ⚙️ Andaime de código
 
-## Further help
+* Execute `ng generate component nome-do-componente` para gerar um novo componente.
+* Você também pode usar `ng generate directiva|pipe|service|class|guard|interface|enum|module`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🏗️ Build
+
+* Execute `ng build` para construir o projeto.
+* Os artefatos de construção serão armazenados no diretório `dist/`.
+
+## 🧪 Executando testes unitários
+
+* Execute `ng test` para executar os testes de unidade via [Karma](https://karma-runner.github.io).
+
+## 🧪 Executando testes ponta a ponta
+
+* Execute `ng e2e` para executar os testes end-to-end através de uma plataforma de sua escolha.
+* Para usar este comando, você precisa primeiro adicionar um pacote que implemente recursos de teste ponta a ponta.
