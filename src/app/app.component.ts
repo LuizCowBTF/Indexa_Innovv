@@ -4,16 +4,14 @@ import { RouterOutlet } from '@angular/router';
 
 import { FormularioContatoComponent } from './paginas/formulario-contato/formulario-contato.component';
 import { ListaContatosComponent } from './paginas/lista-contatos/lista-contatos.component';
-
-
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     CommonModule,
-    RouterOutlet,
     FormularioContatoComponent,
-    ListaContatosComponent
+    ListaContatosComponent,
+    RouterOutlet
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

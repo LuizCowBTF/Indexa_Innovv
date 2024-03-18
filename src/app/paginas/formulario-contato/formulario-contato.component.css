@@ -4,13 +4,6 @@ header .cabecalho-link {
   align-items: center;
 }
 
-header .cabecalho-link button {
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  background: none;
-}
-
 header .cabecalho-link img {
   align-self: center;
   margin-bottom: 56px;
@@ -23,6 +16,13 @@ header .cabecalho-link div {
 
 header .cabecalho-link img.seta {
   margin: 0 8px;
+}
+
+header .cabecalho-link button {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background: none;
 }
 
 header .cabecalho-link a {
@@ -39,7 +39,7 @@ header .cabecalho-contato {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5px;
+  margin-top: 32px;
 }
 
 h1 {
@@ -115,7 +115,7 @@ input:focus {
   background-color: #E9ECEF;
   font-family: 'Montserrat';
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 400;
   line-height: 23px;
   margin: 8px 0 12px;
   line-height: 37px;
@@ -170,31 +170,3 @@ input:focus {
   color: red;
   margin-bottom: 12px;
 }
-
-.voltar {
-  margin: 10px auto;
-  padding: 5px 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-items: baseline;
-}
-
-.voltar button {
-  color:#0D6EFD;
-  background-color: #FFFFFF;
-  border: 1px solid #0D6EFD;
-  text-decoration: none;
-  cursor: pointer;
-  width: 196px;
-  height: 41px;
-  padding: 6px, 12px;
-  border-radius: 4px;
-  gap: 8px;
-  font-family: 'Montserrat';
-  font-size: 18px;
-  font-weight: 700;
-  text-align: center;
-}
-
-

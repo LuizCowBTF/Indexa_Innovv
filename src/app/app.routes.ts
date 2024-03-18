@@ -4,16 +4,16 @@ import { ListaContatosComponent } from './paginas/lista-contatos/lista-contatos.
 
 export const routes: Routes = [
   {
-    path: '',
-    redirectTo: '/lista-contatos',
-    pathMatch: 'full'
-  },
-  {
     path: 'formulario',
     component: FormularioContatoComponent
   },
   {
     path: 'lista-contatos',
     component: ListaContatosComponent
+  },
+  {
+    path: '',
+    redirectTo: '/lista-contatos',
+    pathMatch: 'full'
   }
 ];
