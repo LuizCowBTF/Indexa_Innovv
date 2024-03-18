@@ -52,4 +52,9 @@
       <button [disabled]="contatoForm.invalid" [ngClass]="contatoForm.valid ? 'botao-salvar' : 'botao-desabilitado'" type="submit">Salvar Contato</button>
     </section>
   </form>
+  <div class="voltar">
+    <button>
+      <a routerLink="/lista-contatos">Voltar</a>
+    </button>
+  </div>
 </app-container>
